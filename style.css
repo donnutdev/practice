@@ -57,7 +57,7 @@ main {
 }
 
 main p{
-    position: absolute;
+    position: relative;
     color: white;
     font-size: 20px;
     font-weight: 400;
@@ -69,10 +69,40 @@ main p{
     background: transparent;
 }
 
-.buttons button{
+.register{
+    position: relative;
     width: 184px;
     height: 41px;
+    border: none;
+    background: #67db38;
+    border-radius: 100px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 4px #077819;
+}
 
+.not-now{
+    position: relative;
+    width: 184px;
+    height: 41px;
+    border: none;
+    background: #191919;
+    border-radius: 100px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 4px #000000;
+}
+
+button {
+    margin-top: 100px;
+    margin-right: 12px;
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 810px){
@@ -118,4 +148,7 @@ main p{
         margin-right: 50px;
     }
 
+    button{
+        margin-top: 50px;
+    }
 }
