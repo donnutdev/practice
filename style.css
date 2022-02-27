@@ -84,7 +84,7 @@ main p{
     .nav-links{
         bottom: 0;
         background: #2f2f2f;
-        box-shadow: 0 10px 10px 14px #161616;
+        box-shadow: 0 10px 20px 12px #161616;
         right: 0;
         left: 0;
         height: 50px;
