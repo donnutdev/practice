@@ -98,7 +98,7 @@ main p{
     .nav-links li{
         color: white;
         background: transparent;
-        margin: 0 30px
+        margin: 0 auto;
     }
 
     .nav-links li a{
