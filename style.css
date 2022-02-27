@@ -65,7 +65,6 @@ main p{
     display: flex;
     align-items: center;
     max-width: 476px;
-    margin-right: 50px;
     background: transparent;
 }
 
