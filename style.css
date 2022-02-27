@@ -1,0 +1,113 @@
+/* Made by Magery */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    background: #232323;
+}
+
+.nav-bar{
+    display: flex;
+    margin: 57px 100px 0 100px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-links li a{
+    margin-right: 20px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.nav-links li svg{
+    display: none;
+}
+
+.nav-links .separator{
+    font-size: 31pt;
+    margin: 0 30px;
+}
+
+.nav-bar a{
+    background: transparent;
+    font-weight: 800;
+    font-size: 18px;
+    color: #fff;
+}
+
+.nav-bar .out{
+    margin-left: auto;
+}
+
+.nav-bar .logo{
+    margin: 0 30px 0 0;
+}
+
+main {
+    margin-top: 156px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main p{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    max-width: 476px;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 810px){
+
+    .nav-bar .separator{
+        display: none;
+    }
+
+    .nav-links{
+        bottom: 0;
+        background: #67db38;
+        right: 0;
+        left: 0;
+        height: 70px;
+        width: 100vw;
+        justify-content: center;
+        position: fixed;
+        z-index: 2;
+    }
+
+
+    .nav-links li{
+        color: white;
+        background: transparent;
+        margin: 0 30px
+    }
+
+    .nav-links li a{
+        display: none;
+    }
+
+    .nav-links li svg{
+        display: block;
+        fill: #232323;
+        background: transparent;
+        height: 50px;
+    }
+
+
+    main, .nav-bar{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
