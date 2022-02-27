@@ -3,13 +3,20 @@
     margin: 0;
     padding: 0;
     font-family: "poppins", sans-serif;
-    background: #232323;
+    background: rgb(35, 35, 35) url("images/bgc.png") no-repeat bottom right;
+    background-size: 650px;
 }
+
 
 .nav-bar{
     display: flex;
     margin: 57px 100px 0 100px;
     align-items: center;
+    background: transparent;
+}
+
+.nav-bar svg{
+    background: transparent;
 }
 
 .nav-links {
@@ -18,21 +25,29 @@
     list-style: none;
     align-items: center;
     color: #fff;
+    background: transparent;
 }
 
 .nav-links li a{
     margin-right: 20px;
     font-weight: 800;
     font-size: 18px;
+    background: transparent;
+}
+
+.nav-links li{
+    background: transparent;
 }
 
 .nav-links li svg{
     display: none;
+    background: transparent;
 }
 
 .nav-links .separator{
     font-size: 31pt;
     margin: 0 30px;
+    background: transparent;
 }
 
 .nav-bar a{
@@ -54,6 +69,7 @@ main {
     margin-top: 156px;
     margin-left: 100px;
     margin-right: 100px;
+    background: transparent;
 }
 
 main p{
